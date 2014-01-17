@@ -1,0 +1,1 @@
+# iOS Web App Boilerplate with jQuery-based detection

@@ -1,0 +1,14 @@
+.js .show-on-desktop,
+.js .show-on-mobile,
+.js .show-on-ios-standalone,
+.js .show-on-ios-safari,
+.js .show-on-ios-chrome,
+.js .show-on-other { display: none }
+
+.js .is-desktop .show-on-desktop { display: block }
+.js .is-mobile .show-on-mobile { display: block }
+.js .is-ios-standalone .show-on-ios-standalone { display: block }
+.js .is-ios-safari .show-on-ios-safari { display: block }
+.js .is-ios-chrome .show-on-ios-chrome { display: block }
+.js .is-other .show-on-other { display: block }
+

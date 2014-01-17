@@ -1,0 +1,16 @@
+{
+  "name": "ios-webapp-jquery",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "modernizr": "~2.7.1"
+  }
+}
