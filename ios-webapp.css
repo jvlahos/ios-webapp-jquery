@@ -3,14 +3,14 @@
 .js .show-on-ios-standalone,
 .js .show-on-ios-safari,
 .js .show-on-ios-chrome,
-.js .show-on-other { display: none }
+.js .show-on-not-idevice { display: none }
 
 .is-desktop .show-on-desktop { display: block }
 .is-mobile .show-on-mobile { display: block }
 .is-ios-standalone .show-on-ios-standalone { display: block }
 .is-ios-safari .show-on-ios-safari { display: block }
 .is-ios-chrome .show-on-ios-chrome { display: block }
-.is-other .show-on-other { display: block }
+.is-not-idevice .show-on-not-idevice { display: block }
 
 .is-ios-safari .add-to-homescreen-arrow:before {
     bottom: 0px;
