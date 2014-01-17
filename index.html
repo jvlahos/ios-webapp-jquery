@@ -3,11 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>An iOS Web App Boilerplate with jQuery-based detection</title>
-        <meta name="description" content="">
-        <link rel="stylesheet" href="ios-webapp.css">  
+        <title>iOS Web App Boilerplate with jQuery-based detection</title>
+        <meta name="description" content="An iOS Web App Boilerplate with jQuery-based device detection.">
+        <link rel="shortcut icon" href="http://example.com/myicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="ios-webapp.css">
         <script src="bower_components/modernizr/modernizr.js"></script>
 
         <!-- Standalone: Run in full-screen mode. -->
@@ -15,7 +16,7 @@
         <!-- Status Bar: black, default, black-translucent-->
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <!-- Customize home screen title. -->
-        <meta name="apple-mobile-web-app-title" content="Web App">
+        <meta name="apple-mobile-web-app-title" content="iOS Web App">
         <!-- Disable phone number detection. -->
         <meta name="format-detection" content="telephone=no">
         <!-- Prevent text size adjustment on orientation change. -->
@@ -93,7 +94,8 @@
               rel="apple-touch-startup-image">
     </head>
     <body>
-        <h3>A simple boilerplate for the necessary components of an iOS web-app, using Javascript-based detection.</h3>
+        <span class="add-to-homescreen-arrow"></span>
+
         <span class="show-on-desktop">Desktop detected.</span>
         <span class="show-on-mobile">Mobile detected.</span>
         <span class="show-on-ios-safari">iOS Safari detected. Add to Homescreen by clicking the share icon.</span>
@@ -101,8 +103,9 @@
         <span class="show-on-ios-standalone">iOS Standalone Web App detected.</span>
         <span class="show-on-other">iOS not detected.</span>
 
+        <!--Scripts-->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.min.js"><\/script>')</script>
-        <script type="text/javascript" src="ios-webapp.js"></script>
+        <script src="ios-webapp.js"></script>
     </body>
 </html>

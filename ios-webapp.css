@@ -5,10 +5,38 @@
 .js .show-on-ios-chrome,
 .js .show-on-other { display: none }
 
-.js .is-desktop .show-on-desktop { display: block }
-.js .is-mobile .show-on-mobile { display: block }
-.js .is-ios-standalone .show-on-ios-standalone { display: block }
-.js .is-ios-safari .show-on-ios-safari { display: block }
-.js .is-ios-chrome .show-on-ios-chrome { display: block }
-.js .is-other .show-on-other { display: block }
+.is-desktop .show-on-desktop { display: block }
+.is-mobile .show-on-mobile { display: block }
+.is-ios-standalone .show-on-ios-standalone { display: block }
+.is-ios-safari .show-on-ios-safari { display: block }
+.is-ios-chrome .show-on-ios-chrome { display: block }
+.is-other .show-on-other { display: block }
+
+.is-ios-safari .add-to-homescreen-arrow:before {
+    bottom: 0px;
+    content: "\2193";
+    left: 156px;
+    margin-top: 325px;
+    position: fixed;
+    -webkit-animation: pulse 1s infinite;
+}
+
+.is-ios-safari.is-iphone-5 .add-to-homescreen-arrow:before {
+    margin-top: 423px;
+}
+
+.is-ios-safari.is-ipad .add-to-homescreen-arrow:before {
+    content: "\2191";
+    left: 139px;
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    -webkit-animation: pulse 1s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% { top: 0px }
+  50% { top: 10px }
+  100% { top: 0px }
+}
 
