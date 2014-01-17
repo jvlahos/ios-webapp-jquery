@@ -1,1 +1,2 @@
-# iOS Web App Boilerplate with jQuery-based detection
+## iOS Web App Boilerplate
+#### jQuery-based device detection
