@@ -4,7 +4,28 @@ The following is a boilerplate of necessary components for designing iOS web app
 
 When viewing on iOS, you'll also notice that I added a basic animating arrow to point to the "Share" button area. For iPhone, it's in the bottom address bar. For iPad, it's in the top address bar.
 
-#### Device Detection, `<body>` Classes
+## Get Started
+Wanna get started?
+
+**Step 1** Clone the repo into a folder.
+```
+$ git clone git@github.com:jvlahos/ios-webapp-jquery.git
+```
+
+**Step 2** Navigate to the cloned repo and run `bower install` to pull down the necessary Javascript dependencies. More info on Bower [here](http://bower.io/).
+
+### Contributing
+
+Want to contribute? Create a new branch with some keywords followed by your initials. Perhaps use this git shorthand for creating and switching to a new branch simultaneously.
+
+```
+$ git checkout -b new_branch_name
+```
+
+Create a pull request and send along your work when it's ready and tested!
+
+
+## Device Detection, `<body>` Classes
 
 **Desktop or Mobile**
 + Desktop `.is-desktop`
